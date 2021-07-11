@@ -28,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test-truffle": "./node_modules/.bin/truffle test",
+    "migrate-contracts": "./node_modules/.bin/truffle migrate -reset",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
